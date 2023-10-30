@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+            <script>
+                function calcular() {
+                    var numero = eval(prompt("Digite um numero:",""));
+                    for(i=0;i<=10;i++){
+                        numero = numero * i
+                        alert(numero)
+                    }
+                }
+            </script>
+    </head>
+
+    <body>
+        <h1>Exercicio 04</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" value="verificar" onclick="calcular();">
+        </form>
+    </body>
+</html>

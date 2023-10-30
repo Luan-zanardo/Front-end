@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Imagens/background1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+#quadrado{
+    width: 60%;
+    height: 100% ;
+    background-color: #f8c9db
+}
+
+#quadrado2{
+    width: 100%;
+    height: 220px;
+    background-color: #ffc4db;
+}
+
+#quadrado3{
+    width: 100%;
+    height: 8%;
+    background-color: #f8abc9;
+    background-size: 200px;
+    margin: 20px 0px;
+}
+
+#quadrado4{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+#quadrado5{
+    display: flex;
+    align-items: center; /*flex-start | flex-end | center | baseline | stretch*/
+    justify-content: center;
+    height:45vh;
+    width: 25vw;
+    background-color: #f8abc9;
+    margin: 10px 15px;
+    border-radius: 30px;
+}
+
+#quadrado6{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*flex-start | flex-end | center | baseline | stretch*/
+    justify-content: center;
+    height:45vh;
+    width: 25vw;
+    background-color: #f8abc9;
+    margin: 10px 15px;
+    border-radius: 30px;
+}
+
+#quadrado7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slots{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*flex-start | flex-end | center | baseline | stretch*/
+    justify-content: center;
+    height:200px;
+    width: 200px;
+    background-color: #f8abc9;
+    margin: 10px 15px;
+    border-radius: 20px;
+}
+
+.btn-zoom:hover {
+    transform: scale(1.1);
+    background-position: -60px;
+  }
+
+.btn-zoom:active {
+transform: scale(1);
+background-position: 500px;
+}
+
+#comprarslot{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*flex-start | flex-end | center | baseline | stretch*/
+    justify-content: center;
+    height:50px;
+    width: 300px;
+    background-color: #f8abc9;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+#encomendas{
+    display: flex;
+    align-items: center; /*flex-start | flex-end | center | baseline | stretch*/
+    justify-content: center;
+    height:46vh;
+    width: 55vw;
+    background-color: #f8abc9;
+    margin: 10px 15px;
+    border-radius: 30px;
+}
+
+.slotimage{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*flex-start | flex-end | center | baseline | stretch*/
+    justify-content: center;
+}
+
+.sombra{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.sombra2{
+    box-shadow: rgba(0, 0, 0, 0.781) 0px 25px 20px -20px;
+}
+
+.sombra3{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 30px 90px;
+}
+
+.button{
+    display: flex;
+    align-items: center; /*flex-start | flex-end | center | baseline | stretch*/
+    justify-content: center;
+}
+
+.button a{
+    margin: 10px 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.logo{
+    width: 280px;
+    height: 200px;
+    display: flex;
+    align-items: center; /*flex-start | flex-end | center | baseline | stretch*/
+    justify-content: center;
+}
+
+.imagem1{
+    width: 200px;
+    height: 200px;
+}
+
+.texto{
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 20px;
+    margin: 30px;
+}
+
+.titulo{
+    color: rgba(0, 0, 0, 0.562);
+    text-align: ce;
+}
+
+.stylebtsslot{
+    margin: 0px 0px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+}

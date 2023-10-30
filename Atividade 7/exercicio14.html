@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+        <script>
+            function calcular() {
+                var nome = prompt("Digite nome: ","");
+                var peso = evel(prompt("Digite peso", ""));
+                var altura = eval(prompt("Digite altura",""));
+                imc = (peso / (altura * altura));
+                alert("Nome = "+nome+" seu IMC = "+imc.ToFixed(2));
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Exercicio 05 - Calcular IMC</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" id="verificar" value="verificar" onclick="calcular();">
+        </form>
+    </body>
+</html>

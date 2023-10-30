@@ -1,0 +1,22 @@
+<html>
+<head>
+<title> Exemplo JS</title>
+<script>
+            function calcular() {
+                var nome = prompt("Digite um nome: ","");
+                var nota1 = eval(prompt("Digite nota 1: ",""));
+                var nota2 = eval(prompt("Digite nota 2: ",""));
+                var nota3 = eval(prompt("Digite nota 3: ",""));
+                media = (nota1 + nota2 + nota3)/3;
+                alert("Aluno: "+nome+" sua média é ="+media)
+            }
+</script>
+</head>
+<body>
+        <h1>Exercicio 01 - Calcular Media</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" 
+              id="verificar" value="verificar" onclick="calcular()">
+        </form>
+</body>
+</html>

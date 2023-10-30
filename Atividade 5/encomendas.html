@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="./Imagens/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+<title>CCS doceria</title>
+</head>
+<body>
+    <div class="sombra" id="quadrado">
+        <form name="formulario" method="post" action="">
+            <div class="button" id="quadrado2">
+                <img class="logo" src="./Imagens/logo1.png" alt="">
+            </div>
+            <div class="button" class="sombra2" id="quadrado3">
+                <a  class="btn-zoom" href="./main.html"> HOME </a>
+                <a  class="btn-zoom" href="./doces.html"> DOCES </a>
+                <a  class="btn-zoom" href="./encomendas.html"> ENCOMENDAS </a>
+            </div>
+            <div align="center">
+                <table>
+                    <tr>
+                        <td>
+                            <h1 class="titulo">
+                                <center>Cliente</center>
+                            </h1>
+                            <center><input type="text" placeholder="Nome" name="nome" minlength="1" maxlength="20" sise="10" required/></center>
+                            <center><input type="text" placeholder="Endereço" name="endereco" minlength="1" maxlength="20" sise="10"></center>
+                            <center><input type="text" placeholder="Cidade" name="cidade" minlength="1" maxlength="20" sise="10"></center>
+                            <center><input type="text" placeholder="Cep" name="cep" minlength="1" maxlength="20" sise="10"></center>
+                            <center><input type="text" placeholder="E-mail" name="email" minlength="1" maxlength="20" sise="10"></center>
+                            <center><input type="text" placeholder="Telefone Residencial" name="residencial" minlength="1" maxlength="20" sise="10"></center>
+                            <center><input type="text" placeholder="Telefone Celular" name="celular" minlength="1" maxlength="20" sise="10"></center>
+                            <center><input type="text" placeholder="Cpf" name="cpf" minlength="1" maxlength="20" sise="10"></center>
+                            <center><input type="text" placeholder="Bairro" name="bairro" minlength="1" maxlength="20" sise="10"></center>
+                            <center><input type="text" placeholder="RG" name="rg" minlength="1" maxlength="20" sise="10"></center>
+                            <center><select name="Estado">
+                                <option value="">Escolha estado&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                                <option value="SANTACATARINA">Santa Catarina</option>
+                                <option value="TEXAS">Texas</option>
+                                <option value="BUENOSAIERES">Buenos Aieres</option>
+                                <option value="BERNA">Berna</option>
+                            </center>></select>
+                        </td>
+                        <td>
+                            <h1 class="titulo">
+                                <center>Encomenda</center>
+                            </h1>
+                            <center>Entrega: <input type="date" name="Edate"/></center>
+                            <center>Horário:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="time" name="Etime"/></center>
+                            <center><input type="text" placeholder="Endereço" name="endereco" minlength="1" maxlength="20" sise="10"></center>
+                            <center><select name="Evento">
+                                <option value="">Escolha evento&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                                <option value="casamento">Casamento</option>
+                                <option value="aniver">Aniversário</option>
+                                <option value="festa">Festa</option>
+                                <option value="nenhum">Nenhum</option>
+                            </center>></select>
+                            <center><select name="Doces">
+                                <option value="">Escolha doces&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                                <option value="verde">Verde</option>
+                                <option value="azul">Azul</option>
+                                <option value="vermelho">Vermelho</option>
+                                <option value="laranja">Laranja</option>
+                            </center>></select>
+                            <center><input type="text" placeholder="Quantidade de doces" name="qtd" minlength="1" maxlength="20" sise="10"></center>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div align="center">
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

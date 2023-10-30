@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title> Exemplo JS</title>
+        <script>
+            function calcular() {
+                var valor1 = eval(prompt("Digite valor 1: ",""));
+                var valor2 = eval(prompt("Digite valor 2: ",""));
+                var valor3 = eval(prompt("Digite valor 3: ",""));
+                resultado1 = valor1 * valor1;
+                resultado2 = valor2 * valor2;
+                resultado3 = valor3 * valor3;
+                alert("Quadrado valor1= "+resultado1+"\n"+
+                      "Quadrado valor2= "+resultado2+"\n"+
+                      "Quadrado valor2= "+resultado3)
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Exercicio 02 - Calcular Quadrado</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" id="verificar" value="verificar" onclick="calcular()">
+
+        </form>
+    </body>
+</html>

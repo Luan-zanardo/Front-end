@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+            <script>
+                function calcular() {
+                    var anos = eval(prompt("Digite qnts anos vc tem:",""));
+                    var meses = eval(prompt("Digite qnts meses vc tem:",""));
+                    var dias = eval(prompt("Digite qnts dias vc tem:",""));
+                    idade = ((anos * 365) + (meses * 30)) + dias;
+                    alert("A sua idade em dias é: " + idade);
+                }
+            </script>
+    </head>
+
+    <body>
+        <h1>Exercicio 07</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" value="verificar" onclick="calcular();">
+        </form>
+    </body>
+</html>

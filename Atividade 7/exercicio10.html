@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+            <script>
+                function calcular() {
+                    var numero = eval(prompt("Digite um numero:",""));
+                    if (numero > 0 ){
+                        alert("Seu numero é positivo")
+                    }
+                    else if (numero < 0 ){
+                        alert("Seu numero é negativo")
+                    }
+                    else if (numero == 0 ){
+                        alert("Seu numero é 0")
+                    }
+                }
+            </script>
+    </head>
+
+    <body>
+        <h1>Exercicio 09</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" value="verificar" onclick="calcular();">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movimentare</title>
+</head>
+<body>
+    <div id="cabecalho">
+        <ul class="menu">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Services.html">Serviços</a>
+                <ul class="submenu">
+                    <li><a href="Personal.html">Personal</a></li>
+                    <li><a href="Musculacao.html">Musculação</a></li>
+                    <li><a href="Ginastica.html">Ginástica</a></li>
+                    <li><a href="Funcional.html">Funcional</a></li>
+                </ul>
+            </li>
+            <li><a href="Suporte.html">Suporte</a></li>
+            <li><a href="Sobre.html">Sobre</a></li>
+            <li><a href="Contatos.html">Contatos</a></li>
+        </ul>
+    </div>
+    <div id="meio">
+        <img src=".\Imagens\academia2.jpg" class="imagem">
+        <div id="texto">
+            <h1>
+                Entre em Contato Conosco
+            </h1>
+            <form name="formulario" method="post" action="">
+                <input type="text" placeholder="Nome" name="nome" minlength="1" maxlength="20" sise="10"/><br>
+                <input type="text" placeholder="Celular" name="celular" minlength="1" maxlength="20" sise="10"/><br>
+                <input type="text" placeholder="Endereço" name="endereco" minlength="1" maxlength="20" sise="10"/><br>
+                <input type="text" placeholder="CEP" name="cep" minlength="1" maxlength="20" sise="10"/><br>
+                <input type="text" placeholder="Cidade" name="cidade" minlength="1" maxlength="20" sise="10"/><br>
+                <input type="text" placeholder="Email" name="email" minlength="1" maxlength="20" sise="10"/><br>
+                <table align="center">
+                    <tr align="center">
+                        <td>
+                            <select name="Services">
+                                <option value="">Serviços&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                                <option value="1">Personal</option>
+                                <option value="2">Musculação</option>
+                                <option value="3">Ginastica</option>
+                                <option value="4">Funcional</option>
+                        </td>
+                    </tr>
+                </table>
+                <table align="center">
+                    <tr align="center">
+                        <td>
+                            <select name="Dias">
+                                <option value="">Dias de treino&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                                <option value="1">3</option>
+                                <option value="2">4</option>
+                                <option value="3">5</option>
+                                <option value="4">7</option>
+                        </td>
+                    </tr>
+                </table>
+                <input type="radio" id="sexo" name="sexo" value="MASC"/>Masculino
+                <input type="radio" id="sexo" name="sexo" value="FEM"/>Feminino<br>
+                Horário: <input type="time" name="Etime"/><br>
+                <br><button type="submit">Cadastrar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </div>
+    </div>
+    <footer id="rodape">
+        <p>&copy; 2023 Movimentare</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+            <script>
+                function calcular() {
+                    var peso = eval(prompt("Digite seu peso:",""));
+                    var altura = eval(prompt("Digite sua altura(em cm):",""));
+                    imc = (peso / (altura * altura));
+                    alert("Seu imc é: " + imc);
+                }
+            </script>
+    </head>
+
+    <body>
+        <h1>Exercicio 05</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" value="verificar" onclick="calcular();">
+        </form>
+    </body>
+</html>
