@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Exemplo Js</title>
+    <script>
+        function calcular() {
+            var nome = prompt("Digite nome do aluno: ");
+            var nota1 = parseFloat(prompt("Digite nota1: "));
+            var nota2 = parseFloat(prompt("Digite nota2: "));
+            var nota3 = parseFloat(prompt("Digite nota3: "));
+            
+            if (isNaN(nota1) || isNaN(nota2) || isNaN(nota3)) {
+                alert("Por favor, insira valores numéricos válidos para as notas.");
+                return; // Sai da função se as notas não forem números
+            }
+            
+            var media = (nota1 + nota2 + nota3) / 3;
+            alert("Aluno: " + nome + " - Média Final: " + media.toFixed(2));
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Exercício 01</h1>
+    <form name="formulario" method="post" action="">
+        <input type="button" name="verificar" value="verificar" onclick="calcular()">
+    </form>
+</body>
+</html>

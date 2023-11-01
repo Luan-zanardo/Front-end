@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+            <script>
+                function calcular() {
+                    var idade = eval(prompt("Digite idade:",""));
+                    if (idade >= 18) {
+                            alert("maior de idade");
+                    }
+                    else {
+                        alert("menor de idade");
+                    }
+                }
+            </script>
+    </head>
+
+    <body>
+        <h1>Exercicio 04</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" value="verificar" onclick="calcular();">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+            <script>
+                function calcular() {
+                    var altura = eval(prompt("Digite a altura do retnagulo:",""));
+                    var largura = eval(prompt("Digite a largura do retnagulo:",""));
+                    area = (largura * altura) / 2;
+                    alert("A area do retangulo é: " + area);
+                }
+            </script>
+    </head>
+
+    <body>
+        <h1>Exercicio 06</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" value="verificar" onclick="calcular();">
+        </form>
+    </body>
+</html>

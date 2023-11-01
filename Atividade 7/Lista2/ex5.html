@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+            <script>
+                function start(){
+                    var palavra = prompt("Digite uma palavra:");
+                    var operacao = eval(prompt("Escolha a operação:\n 1 - vogais\n 2 - consoantes"));
+
+                    if (operacao === 1) {
+                    var vogais = contarVogais(palavra.toLowerCase());
+                    alert("Número de vogais na palavra: " + vogais);
+                    } else if (operacao === 2) {
+                    var consoantes = contarConsoantes(palavra.toLowerCase());
+                    alert("Número de consoantes na palavra: " + consoantes);
+                    } else {
+                    alert("Operação inválida. Escolha 'vogais' ou 'consoantes'.");
+                    }
+                }
+
+                function contarVogais(palavra) {
+                    palavra = palavra.toLowerCase();
+                    var count = 0;
+                    for (var i = 0; i < palavra.length; i++) {
+                        var letra = palavra.charAt(i);
+                        if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") {
+                        count++;
+                        }
+                    }
+                        return count;
+                    }
+
+                function contarConsoantes(palavra) {
+                    palavra = palavra.toLowerCase();
+                    var count = 0;
+                    for (var i = 0; i < palavra.length; i++) {
+                        var letra = palavra.charAt(i);
+                        if (letra >= 'a' && letra <= 'z' && !["a", "e", "i", "o", "u"].includes(letra)) {
+                        count++;
+                        }
+                    }
+                        return count;
+                    }
+            </script>
+    </head>
+
+    <body>
+        <h1>Exercicio 05</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" value="verificar" onclick="start();">
+        </form>
+    </body>
+</html>

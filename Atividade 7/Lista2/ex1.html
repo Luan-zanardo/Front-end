@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+            <script>
+
+                function calcular(){
+                    var TC = eval(prompt("Digite temperatura em graus celsius:"));
+                    alert("Celsius em Farenheit: " + fahrenheit(TC))
+                    alert("Celsius em Kelvin: " + kelvin(TC))
+                }
+
+                function fahrenheit(Temp) {
+                    var TF = Temp * 1.8 + 32;
+                    return  TF
+                }
+
+                function kelvin(Temp) {
+                    var TK = Temp + 273
+                    return TK
+                }
+            </script>
+    </head>
+
+    <body>
+        <h1>Exercicio 01</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" value="verificar" onclick="calcular();">
+        </form>
+    </body>
+</html>

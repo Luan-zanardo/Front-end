@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+            <script>
+                function calcular(){
+                    var V1 = eval(prompt("Informe valor1: "));
+                    var V2 = eval(prompt("Informe valor2: "));
+                    var Op = eval(prompt("1 - adição \n2 - subtração \n3 - multiplicação \n4 - divisão: "))
+
+                    if (Op == 1)
+                        alert("Adição: " + (V1 + V2))
+                    if (Op == 2)
+                        alert("Subtração: " + (V1 - V2))
+                    if (Op == 3)
+                        alert("Multiplicação: " + (V1 * V2))
+                    if (Op == 4)
+                        alert("Divisão: " + (V1 / V2))
+                }
+            </script>
+    </head>
+
+    <body>
+        <h1>Exercicio 02</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" value="verificar" onclick="calcular();">
+        </form>
+    </body>
+</html>

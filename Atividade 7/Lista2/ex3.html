@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+            <script>
+                function calcular(){
+                    var nome = prompt("Digite nome: ");
+                    var cargo = eval(prompt("Cargo: \n1 - Analista\n2 - Programador\n3 - Suporte\n 4 - Tester"));
+                    var salario = eval(prompt("Digite salário: "));
+
+                    if(cargo == 1){
+                        alert("Salário com reajuste: " + (salario + (salario * 0.05)))
+                    }
+                    else if(cargo == 2){
+                        alert("Salário com reajuste: " + (salario + (salario * 0.08)))
+                    }
+                    else if(cargo == 3){
+                        alert("Salário com reajuste: " + (salario + (salario * 0.10)))
+                    }
+                    else if(cargo == 4)
+                        alert("Salário com reajuste: " + (salario + (salario * 0.10)))
+                    }
+            </script>
+    </head>
+
+    <body>
+        <h1>Exercicio 03</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" value="verificar" onclick="calcular();">
+        </form>
+    </body>
+</html>

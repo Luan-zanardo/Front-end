@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+            <script>
+                function calcular(){
+                    var nome = prompt("Digite nome: ");
+                    var curso = eval(prompt("Cargo: \n1 - Informática\n2 - Mecânica\n3 - Desing\n 4 - Química"));
+                    var mensalidade = eval(prompt("Digite valor da mensalidade: "));
+
+                    if(curso == 1){
+                        alert("Mensalidade com desconto: " + (mensalidade - (mensalidade * 0.06)))
+                    }
+                    else if(curso == 2){
+                        alert("Mensalidade com desconto: " + (mensalidade - (mensalidade * 0.08)))
+                    }
+                    else if(curso == 3){
+                        alert("Mensalidade com desconto: " + (mensalidade - (mensalidade * 0.05)))
+                    }
+                    else if(curso == 4)
+                        alert("Mensalidade com desconto: " + (mensalidade - (mensalidade * 0.07)))
+                    }
+            </script>
+    </head>
+
+    <body>
+        <h1>Exercicio 04</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" value="verificar" onclick="calcular();">
+        </form>
+    </body>
+</html>

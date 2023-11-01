@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Exemplo Js</title>
+            <script>
+                function calcular() {
+                    var maiorvalor = 0
+                    var valor1 = eval(prompt("Digite valor1: ",""));
+                    var valor2 = eval(prompt("Digite valor2: ",""));
+                    var valor3 = eval(prompt("Digite valor3: ",""));
+
+                    if (valor1 >= maiorvalor) {
+                            maiorvalor = valor1;
+                    }
+                    
+                    if (valor2 >= maiorvalor) {
+                            maiorvalor = valor2;
+                    }
+
+                    if (valor3 >= maiorvalor) {
+                            maiorvalor = valor3;
+                    }
+
+                    alert("maior valor: " + maiorvalor)
+                }
+            </script>
+    </head>
+
+    <body>
+        <h1>Exercicio 08</h1>
+        <form name="formulario" method="post" action="">
+            <input type="button" name="verificar" value="verificar" onclick="calcular();">
+        </form>
+    </body>
+</html>
